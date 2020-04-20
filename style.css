@@ -1,0 +1,647 @@
+
+
+.netflix-logo {
+	width: 145px;
+	height:40.2px;
+}
+
+.back-black{
+	height: 500px;
+	margin-top: 8px; 
+	background-color: black;
+	padding-top: 124px;
+	overflow: hidden;
+}
+
+
+@media (max-width: 900px) {
+    .back-black{height: 800px;}
+}
+
+@media (max-width: 600px) {
+    .back-black{height: 550px; padding-top: 60px;}
+}
+
+
+/*.title-position{
+	padding-left: 18px; 
+	padding-top:25px;
+}
+
+@media (max-width: 1200px) {
+    .title-position{
+    	
+    }
+}*/
+
+.back-grey {
+	background-color: #212121;
+	height: 900px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .05rem;
+}
+.back-red {
+	background-color: #030306;
+}
+.red-netflix {
+	color: #E50914;
+}
+
+
+.center {
+	text-align: center;
+}
+.title1 {
+	font-size: 55px;
+	z-index: 2;
+	letter-spacing: 1.2px;
+	line-height: 110%;
+	margin-top: 174px;
+}
+
+@media (max-width: 1200px) {
+    .title1{
+    	margin-top: 130px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .title1{font-size: 28px;}
+}
+
+.title2 {
+	font-size: 55px;
+	letter-spacing: 1.15px;
+	line-height: 110%;
+}
+
+
+@media (max-width: 760px) {
+    .title2{font-size: 40px;}
+}
+
+@media (max-width: 600px) {
+    .title2{font-size: 26px;}
+}
+
+
+
+
+
+.btn-red {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px 19px;
+    border: 1px solid #cf0610;
+    border-radius: 4px;
+    background: #ff0b1e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff0b1e), to(#cf0610));
+    background: -moz-linear-gradient(top, #ff0b1e, #cf0610);
+    background: linear-gradient(to bottom, #ff0b1e, #cf0610);
+    -webkit-box-shadow: #ff0d24 0px 0px 0px 0px;
+    -moz-box-shadow: #ff0d24 0px 0px 0px 0px;
+    box-shadow: #ff0d24 0px 0px 0px 0px;
+    text-shadow: #7a040a 0px 0px 0px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight:300;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    height: 38px;
+    margin-right: 16%;
+}
+
+.btn-red:hover,
+.btn-red:focus {
+    border: 1px solid #f40713;
+    background: #ff0d24;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff0d24), to(#f80713));
+    background: -moz-linear-gradient(top, #ff0d24, #f80713);
+    background: linear-gradient(to bottom, #ff0d24, #f80713);
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-red:active {
+    background: #cf0610;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cf0610), to(#cf0610));
+    background: -moz-linear-gradient(top, #cf0610, #cf0610);
+    background: linear-gradient(to bottom, #cf0610, #cf0610);
+}
+
+
+.btn-red-try {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px 19px;
+    border: 1px solid #cf0610;
+    background: #ff0b1e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff0b1e), to(#cf0610));
+    background: -moz-linear-gradient(top, #ff0b1e, #cf0610);
+    background: linear-gradient(to bottom, #ff0b1e, #cf0610);
+    -webkit-box-shadow: #ff0d24 0px 0px 0px 0px;
+    -moz-box-shadow: #ff0d24 0px 0px 0px 0px;
+    box-shadow: #ff0d24 0px 0px 0px 0px;
+    text-shadow: #7a040a 0px 0px 0px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius:0px;
+    width:220px;
+    font-size: 28px;
+}
+
+.btn-red-try:hover,
+.btn-red-try:focus {
+    border: 1px solid #f40713;
+    background: #ff0d24;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff0d24), to(#f80713));
+    background: -moz-linear-gradient(top, #ff0d24, #f80713);
+    background: linear-gradient(to bottom, #ff0d24, #f80713);
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-red-try:active {
+    background: #cf0610;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cf0610), to(#cf0610));
+    background: -moz-linear-gradient(top, #cf0610, #cf0610);
+    background: linear-gradient(to bottom, #cf0610, #cf0610);
+}
+
+@media (max-width: 1200px) {
+    .btn-red-try{
+    	width: 138px;
+    	height: 45px;
+    	border-radius: 3px;
+    	margin-top: 15px;
+    	font-size: 18px;
+    	position: relative;
+    	left: 34%;
+    }
+}
+
+@media (max-width: 500px) {
+    .btn-red-try{
+    	left: 18%;
+    	}
+}
+
+
+.mail {
+	resize: none; 
+	color: grey;
+	padding-top: 20px; 
+	font-size: 17px; 
+	height: 65px;
+	 
+	padding-left: 10px;
+	letter-spacing: .1rem;
+}
+
+@media (max-width: 1200px) {
+    .mail{width: 90%;}
+}
+
+@media (max-width: 500px) {
+    .mail{
+    	margin-left:-40px;
+    	width: 150%;
+    	}
+}
+
+
+.resize-none: {
+	resize : none;
+}
+
+.text {
+	color: white;
+	font-size: 28px;
+	line-height: 130%;
+	font-weight: 400;
+	letter-spacing: 0.0155em;
+}
+
+@media (max-width: 600px) {
+    .text{font-size: 18px;}
+}
+
+.text-small {
+	color: white;
+	font-size: 19.2px;
+	font-weight: 300;
+}
+
+@media (max-width: 600px) {
+    .text-small{font-size: 18px;}
+}
+
+image {
+	width: 100%;
+}
+.showcase {
+	width: 100%;
+	height: 121vh;
+	position: relative;
+	background: url(image/background.jpg) no-repeat center center/cover;
+}
+
+.showcase::after {
+	content:'';
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:1;
+	background: rgba(0,0,0,0.4);
+	box-shadow: inset 0px 120px 250px rgba(0,0,0,0.8), inset 0px -180px 250px rgba(0,0,0,0.8); 
+
+}
+
+.bright {
+	position: relative;
+	z-index: 2;
+
+}
+
+.container-text {
+	margin-left: 20px;
+}
+
+
+video {
+    object-fit: contain;
+    width: 100%;
+}
+
+
+.little-back-black {
+	position: relative;
+	background-color:black;
+	height: 24.5%;
+	width:60%;
+	border-radius: 15px;
+	border-color: #404040;
+	border-width: 2px;
+	border-style: solid;
+	top: -28.5%;
+	left: 10%;
+	z-index: 2;
+	padding-top: 1.7%;
+	overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .little-back-black{top: -33.5px;}
+}
+
+.center-small {}
+
+@media (max-width: 768px) {
+    .center-small{
+    	text-align: center;}
+}
+
+
+
+.pc-position {
+	position:relative;
+	top: -40%;
+
+}
+
+
+
+.video-pc-position {
+	position:relative;
+	top: 11%;
+	left: 19%;
+
+}
+
+
+
+.back-black-l{
+	height: 580px;
+	margin-top: 8px; 
+	background-color: black;
+	padding-top: 124px;
+	overflow: hidden;
+}
+
+
+@media (max-width: 900px) {
+    .back-black-l{height: 800px;}
+}
+
+@media (max-width: 600px) {
+    .back-black-l{height: 600px; padding-top: 60px;}
+}
+
+.pc-container{
+	position: relative;
+	background-color:black;
+	height: 90%;
+	width:100%;
+	margin-top: -15%;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.smartphone-container{
+	position: relative;
+	top: -100px;
+	background-color:black;
+	height: 450px;
+	width:100%;
+	z-index: 1; 
+}
+
+.smartphone-position{
+	position: relative;
+	left: -7.7%;
+	top: 7px;
+	 
+}
+@media (max-width: 600px) {
+    .smartphone-position{top: 2px;}
+}
+
+.tv-container{
+	position: relative;
+	background-color:black;
+	height: 75%;
+	width:102%;
+	margin-top: -15%;
+	z-index: 1;
+	overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .tv-container{padding-top:10%;}
+}
+
+.tv-position {
+	position: relative;
+	top: -59%;
+	left: 5%;
+}
+
+.video-position {
+	position:relative;
+	top: 17%;
+	left: 17.5%;
+
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #303030;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  padding: 18px;
+  height: 82px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  transition: 0.4s;
+  margin-top: 10px;
+  padding-left: 35px;
+  padding-top: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #303030;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  padding-left: 35px;
+  margin-top: 1px;
+  padding-top: 32px;
+}
+
+.accordion:after {
+  content: '+';
+  font-size: 60px;
+  font-weight: 100;
+  color: white;
+  float: right;
+  padding-right: 11px;
+}
+
+.active:after {
+  content: "x";
+}
+
+.back-black-xl{
+	height: auto;
+	margin-top: 8px; 
+	background-color: black;
+	padding-top: 80px;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+
+.text-accordion {
+	color: white;
+	font-size: 28px;
+	line-height: 130%;
+	font-weight: 400;
+}
+
+@media (max-width: 900px) {
+    .text-accordion{font-size: 24px;}
+}
+@media (max-width: 750px) {
+    .text-accordion{font-size: 20px;}
+}
+
+@media (max-width: 600px) {
+    .text-accordion{font-size: 18px;}
+}
+
+.list-link{
+	padding-top: 40px;
+	font-size: 14px;
+	font-weight: 300;
+}
+.grey {
+	color: #757575;
+
+}
+
+.grey:hover {
+	color: #757575;
+}
+
+.links-position {
+	
+}
+
+@media (max-width: 992px) {
+    .links-position{;}
+}
+
+
+
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    width: 13%;
+    margin-top:-80px;
+    top: -35px;
+}    .select select {
+        font-family: 'Roboto', sans-serif, 'FontAwesome', 'Second Font name';
+        font-size: 20px;
+        display: inline-block;
+        width: 180px;
+        cursor: pointer;
+        padding: 17px 15px;
+        outline: 0;
+        border: 1px solid #404040;
+        border-radius: 2px;
+        background: black;
+        color: #6E6E6E;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: #6E6E6E;
+            background: #000000;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 25px;
+    right: 16px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #6E6E6E transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-top-color: #6E6E6E;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #6E6E6E;
+}
+
+@media (max-width: 768px) {
+    .select{margin-top: 40px;}
+}
+
+.back-black-auto{
+	height: 500px;
+	margin-top: 8px; 
+	background-color: black;
+	padding-top: 124px;
+	overflow: hidden;
+}
+
+@media (max-width: 900px) {
+    .back-black-auto{height: auto;}
+}
+
+.back-black-l-auto{
+	height: 580px;
+	margin-top: 8px; 
+	background-color: black;
+	padding-top: 124px;
+	overflow: hidden;
+}
+
+@media (max-width: 900px) {
+    .back-black-l-auto{height: auto;}
+}
+
+
+
+/*
+@media (max-width: 900px) {
+    .back-black-l{height: 800px;}
+}
+
+@media (max-width: 600px) {
+    .back-black-l{height: 600px; padding-top: 60px;}
+}
+
+
+
+
+
+
+
+/*.video-pc-position {
+	position:absolute;
+	left:160px;
+	bottom:60px;
+	width: 75%;
+}
+
+
+
+@media (max-width: 768px) {
+    .video-position{
+    	position: absolute;
+    	left:88px;
+    	bottom:-325px;
+    	width: 86%;
+    }
+}
+
+@media (max-width: 600px) {
+    .video-position{
+    	position: absolute;
+    	bottom:-245px;
+    }
+}
+
+
+
+/*<div style="position:absolute; left:760px; top:858px;">
+						<video style="width: 87%;" width=100% loop muted playsinline autoplay src="video/video-tv.m4v" type="video/m4v">
+						</video>
+					</div>
+					<div style="position:absolute; left:685px; top:770px;overflow: hidden;display: block;">
+						<img alt="" style="width: 96%;" src="image/tv.png">
+					</div>
+
+
+
+<div class=" container col-md-6 col-sm-12 col-xs-12">
+					<div style="position:relative; left:115px; bottom:10px;">
+						<video style="width: 70%;" width=100% loop muted playsinline autoplay src="video/video-tv.m4v" type="video/m4v">
+						</video>
+					</div>
+					<div style="position:relative; left:40px; bottom:345px;overflow: hidden;display: block;">
+						<img alt="" style="width: 93%;" src="image/tv.png">
+					</div>
+
+
+
+
+
+
